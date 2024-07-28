@@ -1,0 +1,24 @@
+-- Create a new table
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    ...
+);  -- Replace 'table_name' with your table name, and 'column1', 'column2', etc. with your column names and their datatypes.
+
+-- Delete a table
+DROP TABLE table_name;  -- Replace 'table_name' with the name of the table you want to delete.
+
+-- Remove all records from a table, but keep the table structure
+TRUNCATE TABLE table_name;  -- Replace 'table_name' with the name of the table you want to truncate.
+
+-- Add a new column to a table
+ALTER TABLE table_name ADD column_name datatype;  -- Replace 'table_name' with your table name, 'column_name' with the new column name, and 'datatype' with the data type of the new column.
+
+-- Remove a column from a table
+ALTER TABLE table_name DROP COLUMN column_name;  -- Replace 'table_name' with your table name and 'column_name' with the name of the column you want to drop.
+
+-- Modify the data type of an existing column
+ALTER TABLE table_name MODIFY COLUMN column_name new_datatype;  -- Replace 'table_name' with your table name, 'column_name' with the name of the column, and 'new_datatype' with the new data type.
+
+-- Rename a table
+ALTER TABLE table_name RENAME TO new_table_name;  -- Replace 'table_name' with the current name of the table and 'new_table_name' with the new name you want to give it.
