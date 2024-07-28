@@ -1,0 +1,40 @@
+-- Select specific columns from a table
+SELECT column FROM table_name;  
+-- Replace 'column' with the column name you want to select and 'table_name' with your table name.
+
+-- Select distinct values from a column
+SELECT DISTINCT column FROM table_name;  
+-- Replace 'column' with the column name from which you want to select distinct values and 'table_name' with your table name.
+
+-- Select with a condition
+SELECT column FROM table_name WHERE condition;  
+-- Replace 'column' with the column name, 'table_name' with your table name, and 'condition' with the condition to filter the rows.
+
+-- Select with sorting
+SELECT column FROM table_name ORDER BY column ASC/DESC;  
+-- Replace 'column' with the column name, 'table_name' with your table name, and 'column ASC/DESC' with the column name and sort order.
+
+-- Select with a limit
+SELECT column FROM table_name LIMIT number;  
+-- Replace 'column' with the column name, 'table_name' with your table name, and 'number' with the maximum number of rows to return.
+
+-- Select with grouping
+SELECT column, COUNT(*) FROM table_name GROUP BY column;  
+-- Replace 'column' with the column name to group by, and 'table_name' with your table name.
+
+-- Select with aggregate functions (e.g., SUM, AVG, MIN, MAX)
+SELECT SUM(column) FROM table_name;  
+-- Replace 'column' with the column name you want to aggregate and 'table_name' with your table name.
+
+SELECT AVG(column) FROM table_name;  
+-- Replace 'column' with the column name you want to average and 'table_name' with your table name.
+
+SELECT MIN(column) FROM table_name;  
+-- Replace 'column' with the column name you want the minimum value of and 'table_name' with your table name.
+
+SELECT MAX(column) FROM table_name;  
+-- Replace 'column' with the column name you want the maximum value of and 'table_name' with your table name.
+
+-- Select with join
+SELECT column1, column2 FROM table1 INNER JOIN table2 ON table1.common_column = table2.common_column;  
+-- Replace 'column1, column2' with the columns you want to select, 'table1' and 'table2' with your table names, and 'common_column' with the common column for joining.
