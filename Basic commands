@@ -1,0 +1,23 @@
+-- Create a new database
+CREATE DATABASE student_records;
+
+-- Switch to the newly created database
+USE student_records;
+
+-- Create a table to store student information
+CREATE TABLE stu1 (
+    uid VARCHAR(10),    -- Unique identifier for each student
+    name CHAR(10),      -- Student's name (fixed length of 10 characters)
+    marks INTEGER(10)   -- Student's marks (up to 10 digits)
+);
+
+-- Display the structure of the table
+DESCRIBE TABLE stu1;
+-- Note: Some SQL dialects use DESCRIBE stu1; instead
+
+-- Insert a new record into the table
+-- Replace ... with actual values, e.g., ('S001', 'John Doe', 95)
+INSERT INTO stu1 VALUES (...);
+
+-- Retrieve all records from the table
+SELECT * FROM stu1;
