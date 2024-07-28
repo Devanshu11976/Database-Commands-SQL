@@ -1,4 +1,4 @@
-### Welcome to the Ultimate SQL Learning Hub! 🚀
+Welcome to the Ultimate SQL Learning Hub! 🚀
 
 - Designed for Students and Beginners: Ideal for those eager to dive into the world of databases.
 - Comprehensive SQL Commands: Guides you from the basics to advanced techniques with ease.
