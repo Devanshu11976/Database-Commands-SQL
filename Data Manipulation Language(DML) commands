@@ -1,0 +1,35 @@
+-- Insert a new row into a table
+INSERT INTO table_name (columns) VALUES (values);  
+-- Replace 'table_name' with your table name, 'columns' with the column names, and 'values' with the corresponding values.
+
+-- Delete rows from a table based on a condition
+DELETE FROM table_name WHERE condition;  
+-- Replace 'table_name' with your table name and 'condition' with the condition to select the rows you want to delete.
+
+-- Update rows in a table based on a condition
+UPDATE table_name SET column = value WHERE condition;  
+-- Replace 'table_name' with your table name, 'column' with the column name, 'value' with the new value, and 'condition' with the condition to select the rows you want to update.
+
+-- Select specific columns from a table
+SELECT column1, column2, ... FROM table_name;  
+-- Replace 'column1, column2, ...' with the column names you want to select and 'table_name' with your table name.
+
+-- Select all columns from a table
+SELECT * FROM table_name;  
+-- Replace 'table_name' with your table name.
+
+-- Select with a condition
+SELECT column1, column2, ... FROM table_name WHERE condition;  
+-- Replace 'column1, column2, ...' with the column names, 'table_name' with your table name, and 'condition' with the condition to filter the rows.
+
+-- Select with sorting
+SELECT column1, column2, ... FROM table_name ORDER BY column1 ASC/DESC;  
+-- Replace 'column1, column2, ...' with the column names, 'table_name' with your table name, and 'column1 ASC/DESC' with the column name and sort order.
+
+-- Select with a limit
+SELECT column1, column2, ... FROM table_name LIMIT number;  
+-- Replace 'column1, column2, ...' with the column names, 'table_name' with your table name, and 'number' with the maximum number of rows to return.
+
+-- Select with grouping
+SELECT column1, COUNT(*) FROM table_name GROUP BY column1;  
+-- Replace 'column1' with the column name to group by, and 'table_name' with your table name.
