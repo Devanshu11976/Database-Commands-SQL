@@ -38,18 +38,30 @@ cd Data-Query-Language-DQL
 
 
 Contributing
+
 We welcome contributions! If you have any improvements or additional commands to add, please fork the repository and create a pull request.
+
 •	Fork the repository
+
 •	Create a new branch (git checkout -b feature-branch)
+
 •	Commit your changes (git commit -am 'Add new feature')
+
 •	Push to the branch (git push origin feature-branch)
+
 •	Create a new Pull Request
 
+
 License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 Contact
+
 For any questions or feedback, feel free to open an issue or contact the repository owner.
+
 •	Name: Devanshu Sharma
+
 •	Email: devanshusharmagsp@gmail.com
 
 
